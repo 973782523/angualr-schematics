@@ -1,0 +1,17 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-hello": {
+      "description": "A blank schematic.",
+      "factory": "./ng-hello/index#ngHello"
+    },
+    "component": {
+      "aliases": [
+        "c"
+      ],
+      "factory": "./component",
+      "description": "Create an Angular component.",
+      "schema": "./component/schema.json"
+    }
+  }
+}
